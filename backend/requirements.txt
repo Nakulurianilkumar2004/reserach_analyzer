@@ -1,17 +1,12 @@
-fastapi
-uvicorn
-pydantic
-sentence-transformers
-pymupdf
-passlib[bcrypt]
-python-jose
-python-multipart
-pymongo
-bson
-pydantic[email]
-bcrypt==4.0.1
-scikit-learn
-python-dotenv
-google-genai
-
-
+fastapi==0.114.0
+uvicorn[standard]==0.23.2
+pydantic==2.6.2
+python-dotenv==1.0.0
+pymongo==4.4.1
+python-multipart==0.0.6   # for file uploads
+passlib[bcrypt]==1.8.2    # for password hashing
+python-jose==3.3.0         # JWT tokens
+pymupdf==1.22.5           # PDF extraction
+sentence-transformers==2.2.2
+scikit-learn==1.3.3
+google-genai==0.3.1        # Gemini API
