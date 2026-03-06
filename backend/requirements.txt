@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+sentence-transformers
+pymupdf
+passlib[bcrypt]
+python-jose
+python-multipart
+pymongo
+bson
+pydantic[email]
+bcrypt==4.0.1
+scikit-learn
+python-dotenv
+google-genai
+
+
