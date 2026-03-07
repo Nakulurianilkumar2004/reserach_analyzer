@@ -115,3 +115,4 @@ Upload PDFs to analyze research papers.
 Ask AI questions about uploaded papers.
 
 Admin users can view all uploaded papers.
+![alt text](resumescreenshotoutput-1.png)
