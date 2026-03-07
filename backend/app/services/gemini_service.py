@@ -24,7 +24,7 @@ def ask_gemini(question, context=None):
 
     try:
         response = client.models.generate_content(
-            model="models/gemini-2.5-flash",
+            model="models/gemini-2.5-flash-lite",
             contents=prompt
         )
 
